@@ -2,8 +2,8 @@
 
 %define _disable_source_fetch 0
 
-Name:           bazel6
-Version:        6.4.0
+Name:           bazel8
+Version:        8.2.1
 Release:        0%{?dist}
 Summary:        Correct, reproducible, and fast builds for everyone.
 License:        Apache License 2.0
@@ -19,10 +19,11 @@ Conflicts:      bazel2
 Conflicts:      bazel3
 Conflicts:      bazel4
 Conflicts:      bazel5
+Conflicts:      bazel6
 
 Provides:	bazel
 
-BuildRequires:  java-11-openjdk-devel
+BuildRequires:  java-21-openjdk-devel
 #BuildRequires:  java-1_8_0-openjdk-headless ## OpenSUSE
 #BuildRequires:  java-1.8.0-openjdk-headless ## Mageia
 BuildRequires:  zlib-devel
