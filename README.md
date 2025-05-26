@@ -1,3 +1,4 @@
+[![Copr build status](https://copr.fedorainfracloud.org/coprs/ohadm/bazel/package/bazel8/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/ohadm/bazel/package/bazel8/)
 # bazel build on copr
 
 This is the rpm spec for generating rpm and/or src.rpm to build [bazel](https://bazel.build/).

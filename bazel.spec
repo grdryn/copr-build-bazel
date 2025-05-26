@@ -42,7 +42,7 @@ BuildRequires:  python3
 %endif
 
 Requires:       findutils
-Requires:       java-11-openjdk-devel
+Requires:       java-21-openjdk-devel
 #Requires:       java-1_8_0-openjdk-headless ## OpenSUSE
 #Requires:       java-1.8.0-openjdk-headless ## Mageia
 
