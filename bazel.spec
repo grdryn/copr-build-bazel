@@ -19,7 +19,7 @@ Conflicts:      bazel2
 Conflicts:      bazel3
 Conflicts:      bazel4
 
-Provides:	bazel
+Provides:       bazel
 
 BuildRequires:  java-11-openjdk-devel
 #BuildRequires:  java-1_8_0-openjdk-headless ## OpenSUSE
@@ -52,7 +52,7 @@ Correct, reproducible, and fast builds for everyone.
 
 %prep
 %setup -q -c -n bazel-%{version}
-%patch1 -p0
+%patch -P 1 -p0
 
 %build
 %if 0%{?rhel} > 6 && 0%{?rhel} < 8
